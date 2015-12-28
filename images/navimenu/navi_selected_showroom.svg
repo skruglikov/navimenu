@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="42px" height="42px" viewBox="0 0 42 42" enable-background="new 0 0 42 42" xml:space="preserve">
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M42,38c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4c0-2.209,1.791-4,4-4h34c2.209,0,4,1.791,4,4V38z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="1.1719" y1="40.8291" x2="40.8287" y2="1.1723">
+		<stop  offset="0" style="stop-color:#FFA385"/>
+		<stop  offset="1" style="stop-color:#FF6633"/>
+	</linearGradient>
+	<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_3_)" d="M42,38c0,2.209-1.791,4-4,4H4
+		c-2.209,0-4-1.791-4-4V4c0-2.209,1.791-4,4-4h34c2.209,0,4,1.791,4,4V38z"/>
+	<g clip-path="url(#SVGID_2_)">
+		<path fill="none" stroke="#FF6633" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M34.159,50.701c0-5.803-0.636-8.824-3.012-14.8h-0.017c-1.03-2.403-1.379-4.358-1.379-5.328c0-1.079,0.192-2.116,0.547-3.077
+			l3.662-9.536c0.573-1.684-0.106-3.708-1.933-4.28l-4.397-1.414c-1.457-0.388-2.562-1.828-2.562-3.455v-2.11h-7.142v2.11
+			c0,1.627-1.104,3.067-2.562,3.455l-4.397,1.414c-1.826,0.573-2.506,2.597-1.933,4.28l3.662,9.536
+			c0.354,0.961,0.547,1.998,0.547,3.077c0,0.97-0.349,2.925-1.379,5.328h-0.017c-2.376,5.976-3.012,8.997-3.012,14.8H34.159z"/>
+		
+			<line fill="none" stroke="#FF6633" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13.244" y1="30.573" x2="29.752" y2="30.573"/>
+		
+			<line fill="none" stroke="#FF6633" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="21.498" y1="37.203" x2="31.647" y2="37.203"/>
+		
+			<line fill="none" stroke="#FF6633" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="21.498" y1="43.695" x2="33.514" y2="43.695"/>
+		
+			<line fill="none" stroke="#FF6633" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="21.498" y1="24.081" x2="31.61" y2="24.081"/>
+		
+			<line fill="none" stroke="#FF6633" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="21.498" y1="17.588" x2="34.065" y2="17.588"/>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<path fill="none" stroke="#FDFDFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M33.661,50c0-5.802-0.636-8.823-3.012-14.799h-0.017c-1.031-2.404-1.379-4.358-1.379-5.328c0-1.08,0.192-2.117,0.547-3.077
+			l3.662-9.536c0.572-1.684-0.106-3.708-1.933-4.28l-4.397-1.414c-1.457-0.388-2.562-1.828-2.562-3.455V6h-7.143v2.11
+			c0,1.627-1.104,3.067-2.562,3.455l-4.398,1.414c-1.825,0.573-2.505,2.597-1.932,4.28l3.662,9.536
+			c0.354,0.96,0.547,1.997,0.547,3.077c0,0.97-0.349,2.924-1.379,5.328H11.35C8.975,41.177,8.339,44.198,8.339,50H33.661z"/>
+		
+			<line fill="none" stroke="#FDFDFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12.746" y1="29.873" x2="29.254" y2="29.873"/>
+		
+			<line fill="none" stroke="#FDFDFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="21" y1="36.503" x2="31.149" y2="36.503"/>
+		
+			<line fill="none" stroke="#FDFDFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="21" y1="42.995" x2="33.016" y2="42.995"/>
+		
+			<line fill="none" stroke="#FDFDFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="21" y1="23.381" x2="31.112" y2="23.381"/>
+		
+			<line fill="none" stroke="#FDFDFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="21" y1="16.888" x2="33.566" y2="16.888"/>
+	</g>
+</g>
+</svg>

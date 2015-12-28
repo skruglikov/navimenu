@@ -1,0 +1,180 @@
+@import "settings";
+@import "foundation";
+
+$default-font-size: rem-calc(16);
+$default-line-height: rem-calc(16);
+$navi-font-size: $default-font-size !default;
+$navi-line-height: $default-line-height !default;
+
+// navi-size
+$navi-height: rem-calc(104) !default;
+$navi-margin-bottom: $navi-line-height !default;
+
+// navi-image
+$navi-image-height: rem-calc(42);
+// navi-label
+$navi-label-size: $default-line-height * 2; 
+// navi-title
+$navi-title-margin-calc: ($navi-height - $navi-image-height - $navi-label-size) / 2;
+$navi-title-margin: $navi-title-margin-calc + rem-calc(5) 0 $navi-title-margin-calc - rem-calc(5) 0; 
+
+
+// Border
+$navi-border-size: rem-calc(1) !default;
+$navi-border-style: solid !default;
+$navi-border-color: $smoke !default;
+// Button
+$navi-button-font-family: "arial" !default;
+$navi-button-font-color-default: $steel !default;
+$navi-button-font-color-active: $white !default;
+$navi-button-background-color-default: $white-smoke !default;
+$navi-button-background-color-hover: $white-smoke !default;
+$navi-button-background-color-active: #FF6633 !default;
+// Menu
+$navi-menu-font-family: "arial" !default;
+$navi-menu-font-color-default: $primary-color !default;
+$navi-menu-font-color-active: $steel !default;
+$navi-menu-background-color-default: $white-smoke !default;
+$navi-menu-background-color-hover: $white-smoke !default;
+$navi-menu-background-color-active: #FF6633 !default;
+//Color
+$navi-selected-color: #FF6633;
+
+
+.navi {
+	@include clearfix;
+	@include side-radius(left, $global-radius);
+	@include side-radius(right, $global-radius);
+	background-color: $ghost;
+	overflow: hidden;
+	border: $navi-border-size $navi-border-style $navi-border-color;
+	&.navi-inline,
+	&.navi-list {
+		list-style: none;
+		margin: 0;
+		.navi-item {
+			position: relative;
+		}
+	}
+	&.navi-inline {
+		// Menu
+		.navi-menu,
+		.navi-submenu {
+			margin: 0;
+			list-style: none;
+			width: 100%;
+		}
+		.navi-menu {
+			opacity: 0;
+			position: relative;
+			height: $navi-height;
+			overflow: hidden;
+			.navi-item,
+			.navi-prev,
+			.navi-next {
+				text-align: center;
+				display: block;
+				float: $default-float;
+				border-right: $navi-border-size $navi-border-style $navi-border-color;
+				&:last-child { border-right: none; }
+			}
+			.navi-item {
+				.navi-title {
+					font-size: rem-calc(14);
+					font-family: $navi-menu-font-family;
+					line-height: $navi-line-height;
+					color: $navi-menu-font-color-default;
+					display: block;
+					margin: $navi-title-margin;
+					.navi-image,
+					.navi-label { display: block; }
+					.navi-image { margin: 0 auto; }
+					.navi-label {
+						white-space: nowrap;
+						line-height: $navi-label-size;
+					}
+				}
+				// Selected
+				.navi-title {
+					&.selected {
+						color: $navi-menu-font-color-active;
+					}
+				}
+				&.last-visible { border: none; }
+			}
+			.navi-prev,
+			.navi-next {
+				position: relative;
+				height: $navi-height - $navi-border-size * 2;
+				a {
+					margin-top: rem-calc(-12);
+					top: 50%;
+					z-index: 100;
+					position: absolute;
+				}
+			}
+			.navi-prev {
+				a {
+					@include css-triangle($triangle-size:12px,$triangle-color:$navi-button-background-color-active,$triangle-direction:right);
+					margin-left: rem-calc(-18);
+					left: 50%;
+				}
+			}
+			.navi-next {
+				a {
+					@include css-triangle($triangle-size:12px,$triangle-color:$smoke,$triangle-direction:left);
+					margin-right: rem-calc(-18);
+					right: 50%;
+				}
+			}
+			.navi-submenu {
+				display: none;
+				position: absolute;
+			}
+			&.navi-subview {
+				li {
+					display: none;
+					&.navi-subviewopen {
+						display: block;
+						width: 100%;
+						& > a { display: none; }
+						.navi-submenu {
+							display: block;
+							li {
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.navi-backward,
+	.navi-prev,
+	.navi-next {
+		@include radius($default-font-size);
+		position: absolute;
+		width: $default-font-size;
+		height: $default-font-size;
+		overflow: hidden;
+		border: $navi-border-size $navi-border-style $navi-border-color;
+		background-color: $ghost;
+		top: 50%;
+		margin-top: -$default-font-size / 2;
+		opacity: 0;
+		&:hover {
+			background-color: orange;
+			border-color: orange;
+		}
+		&.disabled {
+			opacity: 0;
+		}
+	}
+	.navi-prev,
+	.navi-backward {
+		left: $default-font-size / 2;
+	}
+	.navi-next {
+		right: $default-font-size / 2;
+	}
+}
